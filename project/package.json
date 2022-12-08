@@ -1,0 +1,21 @@
+{
+    "name": "petri-net",
+    "scripts": {
+        "start": "node app.js",
+        "test": "node ./node_modules/mocha/bin/mocha --recursive test",
+        "apply": "node ./node_modules/webgme-engine/src/bin/apply.js",
+        "diff": "node ./node_modules/webgme-engine/src/bin/diff.js",
+        "import": "node ./node_modules/webgme-engine/src/bin/import.js",
+        "export": "node ./node_modules/webgme-engine/src/bin/export.js",
+        "merge": "node ./node_modules/webgme-engine/src/bin/merge.js",
+        "plugin": "node ./node_modules/webgme-engine/src/bin/run_plugin.js",
+        "pluginHook": "node ./node_modules/webgme-engine/src/bin/plugin_hook.js",
+        "users": "node ./node_modules/webgme-engine/src/bin/usermanager.js",
+        "clean_up": "node ./node_modules/webgme-engine/src/bin/clean_up.js"
+    },
+    "dependencies": {
+        "jointjs": "^3.5.5",
+        "lodash": "^4.17.21",
+        "webgme": "^2.42.1"
+    }
+}
