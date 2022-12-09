@@ -1,0 +1,8 @@
+[
+  {
+    "id": "SimViz",
+    "title": "Simulation",
+    "panel": "panels/Simulation/SimulationPanel",
+    "DEBUG_ONLY": false
+  }
+]
