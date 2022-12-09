@@ -10,5 +10,5 @@ After doing so, do "npm start" in the project folder and go http://localhost:888
 Then, create a new project using the seed called "mySeed", drag a PetriNet instance onto the screen and doubleclick it, draging the places and transitions components to make it a complete network. You can find a Simulation button on the left of the screeen, click it to start simulation.
 
 ## Simulation
-In the simulation mode, you can go through one enabled transition, reset the network to the start, and Do classification. Just in case something went wrong after my further modification or the environment build, I have recorded a video of doing a very simple simulation
+In the simulation mode, you can go through one enabled transition, reset the network to the start, and Do classification. (Currently withour a clear tracking of markings, but is planning to deal with it)
 
